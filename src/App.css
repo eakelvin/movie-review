@@ -1,0 +1,12 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: .5rem;
+  height: 120vh;
+}
+.box {
+  background-color: wheat;
+ border: 1px solid blueviolet;
+ padding: 1rem;
+}
