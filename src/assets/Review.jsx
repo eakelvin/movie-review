@@ -31,7 +31,7 @@ class Review extends Component {
                 <div key={index} className='box'>
                     <h3>Title :- {movie.display_title}</h3>
                     <p>Headline :- {movie.headline}</p>
-                    <p>Critics Pick :- {movie.criticpick}</p>
+                    <p>Critics Pick :- {movie.critics_pick}</p>
                     <p>Byline :- {movie.byline}</p>
                 </div>
             ))

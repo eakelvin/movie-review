@@ -4,6 +4,7 @@
   grid-template-rows: repeat(3, 1fr);
   grid-gap: .5rem;
   height: 120vh;
+  padding: 1rem;
 }
 .box {
   background-color: wheat;
